@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://supercatreal.github.io</id>
     <title>Cat&apos;Box</title>
-    <updated>2020-04-06T09:43:00.334Z</updated>
+    <updated>2020-04-06T09:47:56.992Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://supercatreal.github.io"/>
     <link rel="self" href="https://supercatreal.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://supercatreal.github.io/images/avatar.png</logo>
     <icon>https://supercatreal.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Cat&apos;Box</rights>
+    <entry>
+        <title type="html"><![CDATA[[Vol.02]快速进入GTA-OL]]></title>
+        <id>https://supercatreal.github.io/kJGdtsE95/</id>
+        <link href="https://supercatreal.github.io/kJGdtsE95/">
+        </link>
+        <updated>2020-04-06T09:44:30.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>首先，看这篇文章，你需要去steam或者r星官网购买正版GTA5。如果没有的话，看了就跟没看一样。<br>
+好了，废话不多说，开始教程。<br>
+1.下载加速器。<br>
+大部分加速器是收费的，我这里给各位酷友推荐{GoLink}和{薄荷加速器}，目前使用还是不错的，线上一点都不卡（我这边）。下载好后，注册登录，选择GTA5,然后进行加速。<br>
+2.回到steam这边，点击运行GTA5,会有两个选项，一个是玩GTA5,一个是玩GTA OL，我们不选第二个，选第一个。点击开始游戏。<br>
+3.加载好后，点击进入故事模式，待继续加载完成，进入线下模式。<br>
+4.按下esc键，会出现暂停选项，鼠标点击线上，然后进入线上模式。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>首先，看这篇文章，你需要去steam或者r星官网购买正版GTA5。如果没有的话，看了就跟没看一样。<br>
+好了，废话不多说，开始教程。<br>
+1.下载加速器。<br>
+大部分加速器是收费的，我这里给各位酷友推荐{GoLink}和{薄荷加速器}，目前使用还是不错的，线上一点都不卡（我这边）。下载好后，注册登录，选择GTA5,然后进行加速。<br>
+2.回到steam这边，点击运行GTA5,会有两个选项，一个是玩GTA5,一个是玩GTA OL，我们不选第二个，选第一个。点击开始游戏。<br>
+3.加载好后，点击进入故事模式，待继续加载完成，进入线下模式。<br>
+4.按下esc键，会出现暂停选项，鼠标点击线上，然后进入线上模式。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Vol.01]安卓应用推荐（第一期）]]></title>
         <id>https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/</id>
