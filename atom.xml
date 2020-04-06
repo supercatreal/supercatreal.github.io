@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://supercatreal.github.io</id>
     <title>Cat&apos;Box</title>
-    <updated>2020-04-06T06:39:35.513Z</updated>
+    <updated>2020-04-06T07:23:47.722Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://supercatreal.github.io"/>
     <link rel="self" href="https://supercatreal.github.io/atom.xml"/>
@@ -20,7 +20,8 @@
 如你所见，这是我的博客已经搭建完成。此博客基于Github Pages搭建，当然，也会非常的稳定，因为是基于Github的。<br>
 我会更新我已经发布的所有的文章，并补发布之前所有未在本站发布的文章。</p>
 <blockquote>
-<p>首发：酷安@SuperCat_Real</p>
+<p>我的首发地址：酷安@SuperCat_Real<br>
+我的B站主页：@SuperCat_Real</p>
 </blockquote>
 ]]></content>
     </entry>
