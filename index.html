@@ -1,128 +1,134 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>Cat&#39;Box</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://supercatreal.github.io/favicon.ico?v=1586166760278">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Cat&#39;Box
+</title>
+<link rel="shortcut icon" href="https://supercatreal.github.io/favicon.ico?v=1586170557938">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://supercatreal.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://supercatreal.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+</head>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162766234-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162766234-1');
-</script>
-
-
-    <meta name="description" content="Let&#39;s we lonely together.">
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://supercatreal.github.io">
-        <img src="https://supercatreal.github.io/images/avatar.png?v=1586166760278" class="site-logo">
-        <h1 class="site-title">Cat&#39;Box</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://supercatreal.github.io">
+                <img class="avatar" src="https://supercatreal.github.io/images/avatar.png?v=1586170557938" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Cat&#39;Box
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://afdian.net/@SuperCatRealPY" class="menu">
+                                    捐赠我
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://supercatreal.github.io/post/dVbxFKAD3" class="menu">
+                                    用户须知
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://afdian.net/@SuperCatRealPY" class="site-nav">
-            捐赠我
-          </a>
-        
-      
-        
-          <a href="https://supercatreal.github.io/post/dVbxFKAD3" class="site-nav">
-            用户须知
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      Let's we lonely together.
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://supercatreal.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://supercatreal.github.io/kJGdtsE95/">
-                  <h2 class="post-title">[Vol.02]快速进入GTA-OL</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-06
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://supercatreal.github.io/kJGdtsE95/">
+                        [Vol.02]快速进入GTA-OL
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2020-04-06</time>
+                    
                 </div>
-                <div class="post-abstract">
-                  <h2 id="前言">前言</h2>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                    <div class="post-content-abstract">
+                                        <h2 id="前言">前言</h2>
 <p>首先，看这篇文章，你需要去steam或者r星官网购买正版GTA5。如果没有的话，看了就跟没看一样。<br>
 好了，废话不多说，开始教程。<br>
 1.下载加速器。<br>
@@ -131,79 +137,129 @@
 3.加载好后，点击进入故事模式，待继续加载完成，进入线下模式。<br>
 4.按下esc键，会出现暂停选项，鼠标点击线上，然后进入线上模式。</p>
 
+                                    </div>
+                                    
+                                            <a class="btn btn-text" href="https://supercatreal.github.io/kJGdtsE95/">Read More ~</a>
+                            </div>
                 </div>
-              </div>
-              
             </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/">
-                  <h2 class="post-title">[Vol.01]安卓应用推荐（第一期）</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-06
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/">
+                        [Vol.01]安卓应用推荐（第一期）
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2020-04-06</time>
+                    
                 </div>
-                <div class="post-abstract">
-                  <h1 id="前言">前言</h1>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                    <div class="post-content-abstract">
+                                        <h1 id="前言">前言</h1>
 <p>好用的app可以大大提高我们的生产力。我也玩机不短时间了，我寻思着给大家推荐点好用的软件，于是就有了这篇图文。在这篇图文里面我要推荐那些我觉得好用也是我确确实实用过的软件，使用大家大可放心使用。</p>
 <h2 id="via浏览器">Via浏览器</h2>
 <p>它是酷友的作品，也确确实实非常好用，兼容性特别强，目前我用过的最低版本的安卓机，是4.4的，它可以流畅运行。而且对于小内存设备(运存和储存)非常友好，运存上，只要你手机还能动，基本上它就可以正常使用。储存方面，它仅仅只有568k(记不清了)，总之非常的小，1m不到，而且非常简洁。高级功能也是有的。感觉就像是Chrome的精简版本，目前一直在使用。<br>
 下载链接：https://www.coolapk.com/apk/mark.via</p>
 
+                                    </div>
+                                    
+                                            <a class="btn btn-text" href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/">Read More ~</a>
+                            </div>
                 </div>
-              </div>
-              
             </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://supercatreal.github.io/welcome/">
-                  <h2 class="post-title">嗨，你好呀！</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-06
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://supercatreal.github.io/welcome/">
+                        嗨，你好呀！
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2020-04-06</time>
+                    
                 </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            朋友，你好！
+如你所见，这是我的博客。它已经搭建完成。此博客基于Github Pages搭建，当然，也会非常的稳定，因为是基于Github的。
+我会更新我已经发布的所有的文章，并补发布之前所有未在本站发布的文章。
 
-          <div class="pagination-container">
-  
-  
-</div>
+我的首发地址：酷安@SuperCat_Real
+我的B站主页：@SuperCat_Real
+
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://supercatreal.github.io/welcome/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://supercatreal.github.io/images/avatar.png?v=1586170557938)">
+        </div>
+        <h1 class="id_card-title">
+            Cat&#39;Box
+        </h1>
+        <h2 class="id_card-description">
+            Let&#39;s we lonely together.
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
 
         </div>
-      </div>
     </div>
+    
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+                        <!-- 公告栏 -->
+                        
 
-AOS.init();
+                </div>
+            </div>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://supercatreal.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
 
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
-  </body>
 </html>
