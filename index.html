@@ -1,134 +1,94 @@
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    Cat&#39;Box
-</title>
-<link rel="shortcut icon" href="https://supercatreal.github.io/favicon.ico?v=1586170557938">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Cat&#39;Box</title>
+<link rel="shortcut icon" href="https://supercatreal.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://supercatreal.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://supercatreal.github.io/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://supercatreal.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<link rel="alternate" type="application/atom+xml" title="Cat&#39;Box - Atom Feed" href="https://supercatreal.github.io/atom.xml">
 
+    
 
+  <meta name="description" content="Let's we lonely together." />
 </head>
-
 <body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://supercatreal.github.io">
-                <img class="avatar" src="https://supercatreal.github.io/images/avatar.png?v=1586170557938" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    Cat&#39;Box
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://afdian.net/@SuperCatRealPY" class="menu">
-                                    捐赠我
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://supercatreal.github.io/post/dVbxFKAD3" class="menu">
-                                    用户须知
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/post/about" class="menu">
-                                    关于
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
     </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="https://afdian.net/@SuperCatRealPY" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        捐赠我
+      </a>
+    
+      <a href="https://supercatreal.github.io/post/dVbxFKAD3" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        用户须知
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://supercatreal.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      Cat&#39;Box
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      Let's we lonely together.
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://supercatreal.github.io/images/avatar.png?v=1586171027431" alt="Cat&#39;Box" width="100%" height="100%">
+  </div>
+</header>
+      
 
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-container main-container">
-                <div id="content" class="main-container-left">
-                    
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
         
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://supercatreal.github.io/kJGdtsE95/">
-                        [Vol.02]快速进入GTA-OL
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2020-04-06</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                    <div class="post-content-abstract">
-                                        <h2 id="前言">前言</h2>
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://supercatreal.github.io/kJGdtsE95/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          [Vol.02]快速进入GTA-OL
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-04-06</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <h2 id="前言">前言</h2>
 <p>首先，看这篇文章，你需要去steam或者r星官网购买正版GTA5。如果没有的话，看了就跟没看一样。<br>
 好了，废话不多说，开始教程。<br>
 1.下载加速器。<br>
@@ -137,129 +97,72 @@
 3.加载好后，点击进入故事模式，待继续加载完成，进入线下模式。<br>
 4.按下esc键，会出现暂停选项，鼠标点击线上，然后进入线上模式。</p>
 
-                                    </div>
-                                    
-                                            <a class="btn btn-text" href="https://supercatreal.github.io/kJGdtsE95/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/">
-                        [Vol.01]安卓应用推荐（第一期）
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2020-04-06</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                    <div class="post-content-abstract">
-                                        <h1 id="前言">前言</h1>
+      </div>
+      <a href="https://supercatreal.github.io/kJGdtsE95/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          [Vol.01]安卓应用推荐（第一期）
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-04-06</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <h1 id="前言">前言</h1>
 <p>好用的app可以大大提高我们的生产力。我也玩机不短时间了，我寻思着给大家推荐点好用的软件，于是就有了这篇图文。在这篇图文里面我要推荐那些我觉得好用也是我确确实实用过的软件，使用大家大可放心使用。</p>
 <h2 id="via浏览器">Via浏览器</h2>
 <p>它是酷友的作品，也确确实实非常好用，兼容性特别强，目前我用过的最低版本的安卓机，是4.4的，它可以流畅运行。而且对于小内存设备(运存和储存)非常友好，运存上，只要你手机还能动，基本上它就可以正常使用。储存方面，它仅仅只有568k(记不清了)，总之非常的小，1m不到，而且非常简洁。高级功能也是有的。感觉就像是Chrome的精简版本，目前一直在使用。<br>
 下载链接：https://www.coolapk.com/apk/mark.via</p>
 
-                                    </div>
-                                    
-                                            <a class="btn btn-text" href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://supercatreal.github.io/welcome/">
-                        嗨，你好呀！
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2020-04-06</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            朋友，你好！
+      </div>
+      <a href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://supercatreal.github.io/welcome/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          嗨，你好呀！
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-04-06</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        朋友，你好！
 如你所见，这是我的博客。它已经搭建完成。此博客基于Github Pages搭建，当然，也会非常的稳定，因为是基于Github的。
 我会更新我已经发布的所有的文章，并补发布之前所有未在本站发布的文章。
 
-我的首发地址：酷安@SuperCat_Real
-我的B站主页：@SuperCat_Real
-
-
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://supercatreal.github.io/welcome/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-                <!-- 翻页 -->
-                
-                </div>
-                <!--  -->
-                <div class="main-container-middle"></div>
-                <!--  -->
-                <div id="sidebar" class="main-container-right">
-
-                    <!-- 个人信息 -->
-                    
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://supercatreal.github.io/images/avatar.png?v=1586170557938)">
-        </div>
-        <h1 class="id_card-title">
-            Cat&#39;Box
-        </h1>
-        <h2 class="id_card-description">
-            Let&#39;s we lonely together.
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
-
-        </div>
+我的首发地址：酷安@Su...
+      </div>
+      <a href="https://supercatreal.github.io/welcome/" class="btn">
+        阅读更多
+      </a>
     </div>
     
+  </div>
+  
+      </div>
 
-                        <!-- 公告栏 -->
-                        
-
-                </div>
-            </div>
-
-
-
-            <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://supercatreal.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://supercatreal.github.io/media/scripts/main.js"></script>
 </body>
 
 </html>
