@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://supercatreal.github.io</id>
     <title>Cat&apos;Box</title>
-    <updated>2020-04-06T09:19:33.780Z</updated>
+    <updated>2020-04-06T09:37:12.479Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://supercatreal.github.io"/>
     <link rel="self" href="https://supercatreal.github.io/atom.xml"/>
@@ -10,6 +10,40 @@
     <logo>https://supercatreal.github.io/images/avatar.png</logo>
     <icon>https://supercatreal.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Cat&apos;Box</rights>
+    <entry>
+        <title type="html"><![CDATA[[Vol.01]安卓应用推荐（第一期）]]></title>
+        <id>https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/</id>
+        <link href="https://supercatreal.github.io/vol01an-zhuo-ying-yong-tui-jian-di-yi-qi/">
+        </link>
+        <updated>2020-04-06T09:23:24.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="前言">前言</h1>
+<p>好用的app可以大大提高我们的生产力。我也玩机不短时间了，我寻思着给大家推荐点好用的软件，于是就有了这篇图文。在这篇图文里面我要推荐那些我觉得好用也是我确确实实用过的软件，使用大家大可放心使用。</p>
+<h2 id="via浏览器">Via浏览器</h2>
+<p>它是酷友的作品，也确确实实非常好用，兼容性特别强，目前我用过的最低版本的安卓机，是4.4的，它可以流畅运行。而且对于小内存设备(运存和储存)非常友好，运存上，只要你手机还能动，基本上它就可以正常使用。储存方面，它仅仅只有568k(记不清了)，总之非常的小，1m不到，而且非常简洁。高级功能也是有的。感觉就像是Chrome的精简版本，目前一直在使用。<br>
+下载链接：https://www.coolapk.com/apk/mark.via</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="前言">前言</h1>
+<p>好用的app可以大大提高我们的生产力。我也玩机不短时间了，我寻思着给大家推荐点好用的软件，于是就有了这篇图文。在这篇图文里面我要推荐那些我觉得好用也是我确确实实用过的软件，使用大家大可放心使用。</p>
+<h2 id="via浏览器">Via浏览器</h2>
+<p>它是酷友的作品，也确确实实非常好用，兼容性特别强，目前我用过的最低版本的安卓机，是4.4的，它可以流畅运行。而且对于小内存设备(运存和储存)非常友好，运存上，只要你手机还能动，基本上它就可以正常使用。储存方面，它仅仅只有568k(记不清了)，总之非常的小，1m不到，而且非常简洁。高级功能也是有的。感觉就像是Chrome的精简版本，目前一直在使用。<br>
+下载链接：https://www.coolapk.com/apk/mark.via</p>
+<!-- more -->
+<h2 id="纯纯写作">纯纯写作</h2>
+<p>好用的安卓端文本文档编辑器，是酷友的作品，支持坚果云同步，作者主打永远不丢失的口号。目前，除了坚果云倒闭，我想不出怎么可以把备份的东西搞丢，目前我把它当成笔记和收藏夹使用，最棒的功能就是支持markdown写作，还有它的分组管理功能，确实是软件特色，支持导出文档。我已经购买高级版了，之前是我21元购买的永久，现在是128。我个人对这个软件比较期待新功能。<br>
+下载链接：http://www.coolapk.com/apk/com.drakeet.purewriter</p>
+<!-- more -->
+<h2 id="麻雀笔记">麻雀笔记</h2>
+<p>简单方便的笔记，日程记录工具，还可以记录账号密码。支持坚果云备份，不怕丢东西，刷机以后连接坚果云还能找回来。高级版现在要8块钱，一个汉堡的价格，不贵，支持5个设备，高级功能一直会有更新（据开发者的说辞）。没用过的老哥可以试试，非常好用，而且大部分功能都是免费的，推荐大家试试。毕竟试试又不要钱，你说是吧。<br>
+下载链接：http://www.coolapk.com/apk/com.chrissen.card</p>
+<!-- more -->
+<h2 id="坚果云">坚果云</h2>
+<p>免费的同步工具，支持webdav协议，许多软件都支持（大部分酷友的作品），经过网盘大战的洗礼，活到现在不容易啊。每15天更新一次流量，每次大概有1g上传和3g下载流量，个人使用目前没有任何问题，目前空间到底是多少不清楚，反正用就完事了。<br>
+下载链接：http://www.coolapk.com/apk/nutstore.android</p>
+<!-- more -->
+<h1 id="结尾">结尾</h1>
+<p>就差不多这些了，还有些应用我会下载下来具体体验以后再发，毕竟推荐给大家也是要好用才行，你们说是不是。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[嗨，你好呀！]]></title>
         <id>https://supercatreal.github.io/welcome/</id>
