@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://supercatreal.github.io</id>
     <title>Cat&apos;Box</title>
-    <updated>2020-04-06T12:51:30.704Z</updated>
+    <updated>2020-04-06T13:16:07.053Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://supercatreal.github.io"/>
     <link rel="self" href="https://supercatreal.github.io/atom.xml"/>
@@ -16,14 +16,6 @@
         <link href="https://supercatreal.github.io/qDVyh-406/">
         </link>
         <updated>2020-04-06T12:12:34.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="起因">起因:</h1>
-<p>因为我手机是mi6，我也是钉子户。但是64g看起来不怎么充裕，于是我便起了刷机的念头。转念一想，我的mc存档怎么办呢?开始在某度上搜索，但是没有成功，详情可以看我的动态:<a href="https://www.coolapk.com/feed/17780583?shareKey=ODI3MmZmZGQzMzY0NWU4NWViMTY~&amp;shareUid=1766282&amp;shareFrom=com.coolapk.market_10.0.3">查看链接</a><br>
-经过一番摸索，我发现，在mc里面选择存档储存位置的时候，我选择的位置是[应用程序]。由于我没有Root,无法读取Data分区，这便导致了无法对它进行备份的情况。经过在互联网上的摸爬滚打，我发现了解决方法。[NoRoot]</p>
-]]></summary>
-        <content type="html"><![CDATA[<h1 id="起因">起因:</h1>
-<p>因为我手机是mi6，我也是钉子户。但是64g看起来不怎么充裕，于是我便起了刷机的念头。转念一想，我的mc存档怎么办呢?开始在某度上搜索，但是没有成功，详情可以看我的动态:<a href="https://www.coolapk.com/feed/17780583?shareKey=ODI3MmZmZGQzMzY0NWU4NWViMTY~&amp;shareUid=1766282&amp;shareFrom=com.coolapk.market_10.0.3">查看链接</a><br>
-经过一番摸索，我发现，在mc里面选择存档储存位置的时候，我选择的位置是[应用程序]。由于我没有Root,无法读取Data分区，这便导致了无法对它进行备份的情况。经过在互联网上的摸爬滚打，我发现了解决方法。[NoRoot]</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[[Vol.02]快速进入GTA-OL]]></title>
