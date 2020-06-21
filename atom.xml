@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://supercatreal.github.io</id>
     <title>Cat&apos;Box</title>
-    <updated>2020-04-18T13:23:28.196Z</updated>
+    <updated>2020-06-21T12:48:47.150Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://supercatreal.github.io"/>
     <link rel="self" href="https://supercatreal.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://supercatreal.github.io/images/avatar.png</logo>
     <icon>https://supercatreal.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Cat&apos;Box</rights>
+    <entry>
+        <title type="html"><![CDATA[[通知]关于图片问题]]></title>
+        <id>https://supercatreal.github.io/v6rWYSRdR/</id>
+        <link href="https://supercatreal.github.io/v6rWYSRdR/">
+        </link>
+        <updated>2020-06-21T12:43:16.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Vol.03]Mc国际版备份指南]]></title>
         <id>https://supercatreal.github.io/qDVyh-406/</id>
