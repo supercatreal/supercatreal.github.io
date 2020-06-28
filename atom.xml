@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://supercatreal.github.io</id>
     <title>Cat&apos;Box</title>
-    <updated>2020-06-27T10:24:36.634Z</updated>
+    <updated>2020-06-28T13:23:45.726Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://supercatreal.github.io"/>
     <link rel="self" href="https://supercatreal.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://supercatreal.github.io/images/avatar.png</logo>
     <icon>https://supercatreal.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Cat&apos;Box</rights>
+    <entry>
+        <title type="html"><![CDATA[[Vol.05]博客图片跑路记]]></title>
+        <id>https://supercatreal.github.io/0ifoZLVCX/</id>
+        <link href="https://supercatreal.github.io/0ifoZLVCX/">
+        </link>
+        <updated>2020-06-28T12:56:21.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Vol.04]小记QQ被盗]]></title>
         <id>https://supercatreal.github.io/UnMzDFtD-/</id>
@@ -75,12 +82,5 @@
 <p>它是酷友的作品，也确确实实非常好用，兼容性特别强，目前我用过的最低版本的安卓机，是4.4的，它可以流畅运行。而且对于小内存设备(运存和储存)非常友好，运存上，只要你手机还能动，基本上它就可以正常使用。储存方面，它仅仅只有568k(记不清了)，总之非常的小，1m不到，而且非常简洁。高级功能也是有的。感觉就像是Chrome的精简版本，目前一直在使用。<br>
 下载链接：https://www.coolapk.com/apk/mark.via</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[嗨，你好呀！]]></title>
-        <id>https://supercatreal.github.io/welcome/</id>
-        <link href="https://supercatreal.github.io/welcome/">
-        </link>
-        <updated>2020-04-05T16:00:00.000Z</updated>
     </entry>
 </feed>
